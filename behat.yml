@@ -1,0 +1,11 @@
+default:
+  suites:
+    default:
+      contexts:
+        - FeatureContext
+        - AutoRoute\AutoRouteTestingContext
+        - Behat\MinkExtension\Context\MinkContext
+  extensions:
+    Behat\MinkExtension:
+      base_url: http://inevitabletech.uk
+      goutte: ~

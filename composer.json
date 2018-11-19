@@ -1,0 +1,14 @@
+{
+	"require": {
+		"behat/behat": "~3.0",
+		"behat/mink-extension": "@stable",
+		"fabpot/goutte": "@stable",
+        "behat/mink-goutte-driver": "@stable",
+        "genesis/test-routing": "~1.0"
+	},
+    "autoload": {
+        "psr-4": {
+            "AutoRoute\\": "features/bootstrap/"
+        }
+    }
+}
